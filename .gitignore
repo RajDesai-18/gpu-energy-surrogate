@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & logs (raw ONLY; keep processed dataset)
+data/raw/
+logs/
+power_logs/
+ncu_reports/
+perf_logs/
+*.ncu-rep
+*.qdrep
+*.sqlite
+
+# Models & artifacts
+models/
+outputs/
+figures/*.png
+
+# Keep processed dataset in repo
+!data/processed/dataset.csv
