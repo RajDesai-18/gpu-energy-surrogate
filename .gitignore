@@ -2,9 +2,9 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-.env
 .venv/
 venv/
+.env
 .env.*
 
 # Jupyter
@@ -29,5 +29,5 @@ models/
 outputs/
 figures/*.png
 
-# Keep processed dataset in repo
+# Keep processed dataset
 !data/processed/dataset.csv
